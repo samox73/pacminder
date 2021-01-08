@@ -30,3 +30,11 @@ cmake ..
 make
 sudo make install
 ```
+
+### Configuration
+To make us of pacminder, e.g. place 
+
+```
+pacminder
+```
+in your `.bashrc`
