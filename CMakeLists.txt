@@ -19,10 +19,6 @@ include_directories(
   ${Boost_INCLUDE_DIRS}
 )
 
-set(INCL_LIBS
-  ${Boost_LIBRARIES}
-)
-
 add_executable(pacminder src/pacminder.cpp src/ParameterParser.h src/Codes.h src/Logger.h)
 
 target_link_libraries(pacminder LINK_PUBLIC ${Boost_LIBRARIES}
